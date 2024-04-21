@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Skye Kazuma/OneDrive/Documents/Unreal Projects/FinalProjectGraphic/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/Skye Kazuma/OneDrive/Documents/Unreal Projects/FinalProjectGraphic/Content/3dTavern/MainLevel.umap"
+			]
+		}
+	]
+}

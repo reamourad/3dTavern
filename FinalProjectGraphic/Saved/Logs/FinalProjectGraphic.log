@@ -3586,3 +3586,811 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.22-00.50.48:527][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 196 ms
 [2024.04.22-00.50.48:535][970]AssetCheck: New page: Asset Save: MainLevel
 [2024.04.22-00.50.48:538][970]LogContentValidation: Display: Validating /Script/Engine.World /Game/3dTavern/MainLevel.MainLevel
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 0 (Found bundle for host: 0x526849701e0 [serially])
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 1 (Re-using existing connection #27 with host datarouter.ol.epicgames.com)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.223.249.29) port 443 (#27))
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 6 (Closing connection 27)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: 00000527D4542800: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-00.54.45:820][940]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 0 (Found bundle for host: 0x52684970930 [serially])
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 1 (Re-using existing connection #28 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.21.185.250) port 443 (#28))
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 6 (Closing connection 28)
+[2024.04.22-01.00.45:909][ 20]LogHttp: Warning: 00000527D4542300: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.00.45:910][ 20]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 0 (Found bundle for host: 0x52684970e40 [serially])
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 1 (Re-using existing connection #29 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.205.199.152) port 443 (#29))
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 6 (Closing connection 29)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: 00000527D4543C00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.04.45:951][740]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.11.46:060][  0]LogHttp: Warning: 00000527D454A500: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.11.46:060][  0]LogHttp: Warning: 00000527D454A500: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 0 (Found bundle for host: 0x52684970d20 [serially])
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 1 (Re-using existing connection #30 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.83.190.233) port 443 (#30))
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 6 (Closing connection 30)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: 00000527D454A500: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.11.46:061][  0]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.14.06:205][797]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.04.22-01.14.06:224][797]LogContentBrowser: Creating deferred item: NewFolder
+[2024.04.22-01.14.06:233][798]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.04.22-01.14.12:982][598]LogContentBrowser: Attempting asset rename: NewFolder -> CircleTable
+[2024.04.22-01.14.12:982][598]LogContentBrowser: End creating deferred item NewFolder
+[2024.04.22-01.14.20:686][848]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Skye Kazuma\Downloads\Circletable.fbx)
+[2024.04.22-01.14.20:697][848]LogFbx: Loading FBX Scene from C:\Users\Skye Kazuma\Downloads\Circletable.fbx
+[2024.04.22-01.14.20:714][848]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.22-01.14.22:509][848]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.22-01.14.22:565][848]LogFbx: Display: Triangulating static mesh Cube.004
+[2024.04.22-01.14.22:575][848]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.04.22-01.14.22:625][848]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.14.22:627][848]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.14.22:644][848]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.14.22:644][848]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.14.22:650][848]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.14.22:667][848]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.14.22:669][848]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.14.22:681][848]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.14.22:704][848]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.14.22:757][848]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.14.22:760][848]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.14.22:773][848]LogFbx: Display: Triangulating static mesh Cube
+[2024.04.22-01.14.22:845][848]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.04.22-01.14.22:876][848]LogStaticMesh: Display: Building static mesh Circletable...
+[2024.04.22-01.14.23:014][848]LogStaticMesh: Built static mesh [0.14s] /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.23:033][848]LogStaticMesh: Warning: Circletable has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.14.23:033][848]LogStaticMesh: Warning: Circletable has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.14.23:039][848]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.22-01.14.23:039][848]FBXImport: Warning: Circletable has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.14.23:039][848]FBXImport: Warning: Circletable has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.14.23:359][848]LogStaticMesh: Display: Building static mesh Circletable...
+[2024.04.22-01.14.23:414][851]LogStaticMesh: Built static mesh [0.06s] /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.23:421][851]LogStaticMesh: Warning: Circletable has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.14.23:421][851]LogStaticMesh: Warning: Circletable has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Total job queries 397, among them cache hits 169 (42.57%)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Tracking 221 distinct input hashes that result in 69 distinct outputs (31.22%)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: RAM used: 5,09 MiB of 819,20 MiB budget. Usage: 0.62%
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Shaders Compiled: 183
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Jobs assigned 190, completed 183 (96.32%)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Average time worker was idle: 391.68 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Time job spent in pending queue: average 0.95 s, longest 31.90 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Job execution time: average 2.26 s, max 31.88 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Job life time (pending + execution): average 3.25 s, max 32.63
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 60.86 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Jobs were issued in 190 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Average processing rate: 3.01 jobs/sec
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Total thread time: 105,302 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Total thread preprocess time: 9,072 s
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Percentage time preprocessing: 8.62%
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Effective parallelization: 1.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   17 times, average 0.71 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   10 times, average 0.70 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   10 times, average 0.69 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   10 times, average 0.67 sec, max 1.01 sec, min 0.58 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   10 times, average 0.67 sec, max 1.02 sec, min 0.60 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.50% of total time (compiled   17 times, average 0.71 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.41% of total time (compiled   17 times, average 0.64 sec, max 0.86 sec, min 0.46 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.02% of total time (compiled   14 times, average 0.53 sec, max 0.80 sec, min 0.36 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.60% of total time (compiled   10 times, average 0.70 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.52% of total time (compiled   10 times, average 0.69 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.14.24:411][909]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.14.24:646][929]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.14.24:654][929]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.14.26:790][114]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.26:790][114]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.26:790][114]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_34
+[2024.04.22-01.14.26:798][114]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:787][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.27:787][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable
+[2024.04.22-01.14.27:789][221]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable.Circletable as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_35
+[2024.04.22-01.14.27:817][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:818][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:818][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:819][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:819][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:819][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:820][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.27:848][222]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.14.31:612][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.04.22-01.14.32:940][556]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.22-01.14.32:962][556]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/3dTavern/CircleTable/Circletable.Circletable
+	Asset Type: StaticMesh
+	Asset Name: /Game/3dTavern/CircleTable/Stylised_wood.Stylised_wood
+	Asset Type: Material
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_002.Wood_002
+	Asset Type: Material
+[2024.04.22-01.14.33:185][556]LogMaterial: Warning: [AssetLog] /Game/3dTavern/CircleTable/Wood_002.Wood_002: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.22-01.14.33:186][556]LogMaterial: Warning: [AssetLog] /Game/3dTavern/CircleTable/Wood_002.Wood_002: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.22-01.14.33:187][556]LogMaterial: Warning: [AssetLog] /Game/3dTavern/CircleTable/Wood_002.Wood_002: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.22-01.14.33:243][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.04.22-01.14.33:253][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.04.22-01.14.33:260][556]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.04.22-01.15.05:357][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.04.22-01.15.05:364][584]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/MainLevel_Auto1
+[2024.04.22-01.15.05:364][584]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/MainLevel_Auto18C18EDF343C1F161F17F108B3E6518E6.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/MainLevel_Auto1.umap'
+[2024.04.22-01.15.05:371][584]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/3dTavern/MainLevel' took 0.021
+[2024.04.22-01.15.05:371][584]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.021
+[2024.04.22-01.15.32:941][804]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Skye Kazuma\Downloads\Circletable2.fbx)
+[2024.04.22-01.15.32:952][804]LogFbx: Loading FBX Scene from C:\Users\Skye Kazuma\Downloads\Circletable2.fbx
+[2024.04.22-01.15.32:973][804]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.22-01.15.34:008][804]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.22-01.15.34:104][804]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.04.22-01.15.34:157][804]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.15.34:159][804]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.15.34:175][804]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.15.34:176][804]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.15.34:185][804]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.15.34:201][804]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.15.34:203][804]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.15.34:212][804]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.15.34:233][804]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.15.34:283][804]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.15.34:286][804]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.15.34:300][804]LogFbx: Display: Triangulating static mesh Cube
+[2024.04.22-01.15.34:365][804]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.04.22-01.15.34:389][804]LogStaticMesh: Display: Building static mesh Circletable2...
+[2024.04.22-01.15.34:525][804]LogStaticMesh: Built static mesh [0.14s] /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.34:541][804]LogStaticMesh: Warning: Circletable2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.15.34:542][804]LogStaticMesh: Warning: Circletable2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.15.34:548][804]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.22-01.15.34:548][804]FBXImport: Warning: Circletable2 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.15.34:548][804]FBXImport: Warning: Circletable2 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.15.36:254][922]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.15.36:261][922]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.15.38:122][ 71]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.38:122][ 71]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.38:123][ 71]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2 as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_36
+[2024.04.22-01.15.38:157][ 71]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.15.39:632][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.39:632][221]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.39:633][221]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2 as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_37
+[2024.04.22-01.15.39:662][221]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.15.56:977][ 47]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2
+[2024.04.22-01.15.57:003][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-01.15.57:003][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-01.15.57:514][ 47]LogViewport: Scene viewport resized to 1231x665, mode Windowed.
+[2024.04.22-01.16.21:991][467]LogSlate: Window 'Message' being destroyed
+[2024.04.22-01.16.21:998][467]Message dialog closed, result: Yes, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/3dTavern/HighChair/Garden_Trellis.Garden_Trellis
+(Selecting 'No' will cause all changes to be lost!)
+[2024.04.22-01.16.22:657][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.22-01.16.23:047][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.04.22-01.16.23:099][467]LogSlate: Window 'Circletable2' being destroyed
+[2024.04.22-01.16.23:102][467]LogSlate: Window 'Circletable2' being destroyed
+[2024.04.22-01.16.23:149][467]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.16.23:149][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.16.23:231][467]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.16.23:231][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.16.23:279][467]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.16.23:279][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.16.23:350][467]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.16.23:351][467]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.19.46:746][293]LogHttp: Warning: 0000052843E9A000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 0 (Found bundle for host: 0x52684970450 [serially])
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 1 (Re-using existing connection #33 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (18.205.88.153) port 443 (#33))
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 6 (Closing connection 33)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: 0000052843E9A000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.19.46:747][293]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 0 (Found bundle for host: 0x526849706c0 [serially])
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 1 (Re-using existing connection #34 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (3.211.236.97) port 443 (#34))
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 6 (Closing connection 34)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: 0000052843E99100: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.24.46:868][193]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.25.05:944][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.04.22-01.25.05:964][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/MainLevel_Auto2
+[2024.04.22-01.25.05:965][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/MainLevel_Auto2404F86324AA2496CF63061B055133B9C.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/MainLevel_Auto2.umap'
+[2024.04.22-01.25.05:972][249]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/3dTavern/MainLevel' took 0.037
+[2024.04.22-01.25.05:972][249]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.037
+[2024.04.22-01.25.05:973][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/HighChair/Garden_Trellis] ([1] browsable assets)...
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Total job queries 425, among them cache hits 197 (46.35%)
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Tracking 228 distinct input hashes that result in 69 distinct outputs (30.26%)
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: RAM used: 5,23 MiB of 819,20 MiB budget. Usage: 0.64%
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Shaders Compiled: 190
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Jobs assigned 190, completed 190 (100.00%)
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Average time worker was idle: 391.68 s
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Time job spent in pending queue: average 0.95 s, longest 31.90 s
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Job execution time: average 2.22 s, max 31.88 s
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Job life time (pending + execution): average 3.17 s, max 32.63
+[2024.04.22-01.25.05:989][249]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 61.19 s
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Jobs were issued in 190 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Average processing rate: 3.10 jobs/sec
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Total thread time: 109,81 s
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Total thread preprocess time: 9,267 s
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Percentage time preprocessing: 8.44%
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Effective parallelization: 1.79 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.72 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   10 times, average 0.70 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   10 times, average 0.69 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   10 times, average 0.67 sec, max 1.01 sec, min 0.58 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled   10 times, average 0.67 sec, max 1.02 sec, min 0.60 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.38% of total time (compiled   19 times, average 0.72 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.25% of total time (compiled   19 times, average 0.65 sec, max 0.86 sec, min 0.46 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.82% of total time (compiled   16 times, average 0.54 sec, max 0.80 sec, min 0.36 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.33% of total time (compiled   10 times, average 0.70 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.25% of total time (compiled   10 times, average 0.69 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.25.05:990][249]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.25.06:039][249]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3dTavern/HighChair/Garden_Trellis.Garden_Trellis]
+[2024.04.22-01.25.06:039][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/HighChair/Garden_Trellis]
+[2024.04.22-01.25.06:041][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/HighChair/Garden_Trellis_Auto2
+[2024.04.22-01.25.06:041][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Garden_Trellis_Auto20D4790174F83A698CB5F509CE7E95325.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/HighChair/Garden_Trellis_Auto2.uasset'
+[2024.04.22-01.25.06:043][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Circletable2] ([1] browsable assets)...
+[2024.04.22-01.25.06:051][249]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/3dTavern/CircleTable/Circletable2.Circletable2]
+[2024.04.22-01.25.06:051][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Circletable2]
+[2024.04.22-01.25.06:067][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Circletable2_Auto2
+[2024.04.22-01.25.06:067][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Circletable2_Auto2AEDC67C44D7D50D84EC9118971C15F11.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Circletable2_Auto2.uasset'
+[2024.04.22-01.25.06:068][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Stylised_wood] ([1] browsable assets)...
+[2024.04.22-01.25.07:930][249]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3dTavern/CircleTable/Stylised_wood.Stylised_wood]
+[2024.04.22-01.25.07:930][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Stylised_wood]
+[2024.04.22-01.25.07:933][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Stylised_wood_Auto2
+[2024.04.22-01.25.07:934][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Stylised_wood_Auto2A6A6293240CCD04D32C539B1DDF681BF.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Stylised_wood_Auto2.uasset'
+[2024.04.22-01.25.07:935][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_002] ([1] browsable assets)...
+[2024.04.22-01.25.09:528][249]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3dTavern/CircleTable/Wood_002.Wood_002]
+[2024.04.22-01.25.09:528][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_002]
+[2024.04.22-01.25.09:530][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto2
+[2024.04.22-01.25.09:530][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_002_Auto27183A0844045DC4D560D588D400F12D1.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto2.uasset'
+[2024.04.22-01.25.09:531][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_BaseColor] ([1] browsable assets)...
+[2024.04.22-01.25.09:533][249]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor]
+[2024.04.22-01.25.09:534][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_BaseColor]
+[2024.04.22-01.25.09:536][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_BaseColor_Auto2
+[2024.04.22-01.25.09:536][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_BaseColor_Auto2631F6C744583754F27D7E0B3B1213BB1.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_BaseColor_Auto2.uasset'
+[2024.04.22-01.25.09:537][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Emissive] ([1] browsable assets)...
+[2024.04.22-01.25.09:539][249]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive]
+[2024.04.22-01.25.09:539][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Emissive]
+[2024.04.22-01.25.09:542][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Emissive_Auto2
+[2024.04.22-01.25.09:542][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Emissive_Auto2ABAD4FC24095E945E8C033ACD6926C0E.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Emissive_Auto2.uasset'
+[2024.04.22-01.25.09:543][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Roughness] ([1] browsable assets)...
+[2024.04.22-01.25.09:545][249]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness]
+[2024.04.22-01.25.09:545][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Roughness]
+[2024.04.22-01.25.09:547][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Roughness_Auto2
+[2024.04.22-01.25.09:547][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Roughness_Auto290E6B6F04036F5D51E5BE080701A0B01.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Roughness_Auto2.uasset'
+[2024.04.22-01.25.09:549][249]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Normal] ([1] browsable assets)...
+[2024.04.22-01.25.09:551][249]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal]
+[2024.04.22-01.25.09:552][249]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Normal]
+[2024.04.22-01.25.09:554][249]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Normal_Auto2
+[2024.04.22-01.25.09:554][249]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Normal_Auto28945475E45862C4C52C24FB512B741DC.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Normal_Auto2.uasset'
+[2024.04.22-01.25.09:555][249]LogFileHelpers: Auto-saving content packages took 3.582
+[2024.04.22-01.26.22:419][919]Cmd: DELETE
+[2024.04.22-01.26.22:419][919]Cmd: ACTOR DELETE
+[2024.04.22-01.26.22:422][919]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.22-01.26.22:430][919]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.04.22-01.26.22:433][919]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2024.04.22-01.26.22:441][919]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.26.29:920][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.04.22-01.26.31:077][374]LogSlate: Window 'Delete Assets' being destroyed
+[2024.04.22-01.26.31:093][374]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/3dTavern/CircleTable/Circletable2.Circletable2
+	Asset Type: StaticMesh
+	Asset Name: /Game/3dTavern/CircleTable/Stylised_wood.Stylised_wood
+	Asset Type: Material
+	Asset Name: /Game/3dTavern/CircleTable/Wood_002.Wood_002
+	Asset Type: Material
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal
+	Asset Type: Texture2D
+	Asset Name: /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness
+	Asset Type: Texture2D
+[2024.04.22-01.26.31:239][374]LogMaterial: Warning: [AssetLog] /Game/3dTavern/CircleTable/Wood_002.Wood_002: Failed to compile Material for platform PCD3D_SM6, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2024.04.22-01.26.31:291][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.04.22-01.26.31:301][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.04.22-01.26.31:308][374]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.04.22-01.26.33:466][430]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Skye Kazuma\Downloads\Circletable3.fbx)
+[2024.04.22-01.26.33:479][430]LogFbx: Loading FBX Scene from C:\Users\Skye Kazuma\Downloads\Circletable3.fbx
+[2024.04.22-01.26.33:496][430]LogFbx: FBX Scene Loaded Succesfully
+[2024.04.22-01.26.34:511][430]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.04.22-01.26.34:609][430]LogFbx: Display: Triangulating static mesh Cube.008
+[2024.04.22-01.26.34:671][430]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.26.34:672][430]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.26.34:690][430]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.26.34:690][430]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.26.34:697][430]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.26.34:720][430]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.26.34:721][430]LogEditorFactories: Display: Image imported as : TSF G8
+[2024.04.22-01.26.34:730][430]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.26.34:751][430]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.04.22-01.26.34:806][430]LogEditorFactories: Display: JPEG imported and retained as JPEG in uasset.
+[2024.04.22-01.26.34:809][430]LogEditorFactories: Display: Image imported as : TSF BGRA8
+[2024.04.22-01.26.34:825][430]LogFbx: Display: Triangulating static mesh Cube
+[2024.04.22-01.26.34:909][430]LogTexture: Display: Building textures: /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.04.22-01.26.34:952][430]LogStaticMesh: Display: Building static mesh Circletable3...
+[2024.04.22-01.26.35:096][430]LogStaticMesh: Built static mesh [0.14s] /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.26.35:113][430]LogStaticMesh: Warning: Circletable3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.26.35:113][430]LogStaticMesh: Warning: Circletable3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.04.22-01.26.35:118][430]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2024.04.22-01.26.35:118][430]FBXImport: Warning: Circletable3 has some nearly zero tangents which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.26.35:118][430]FBXImport: Warning: Circletable3 has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.04.22-01.26.36:804][539]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.26.36:812][539]LogSlate: Window 'Message Log' being destroyed
+[2024.04.22-01.26.40:386][878]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.26.40:386][878]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.26.40:387][878]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3 as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_38
+[2024.04.22-01.26.40:394][878]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.26.42:032][ 33]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.26.42:033][ 33]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.26.42:034][ 33]LogActorFactory: Actor Factory spawned StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3 as actor: StaticMeshActor /Game/3dTavern/MainLevel.MainLevel:PersistentLevel.StaticMeshActor_39
+[2024.04.22-01.26.42:089][ 33]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.26.55:361][288]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2024.04.22-01.26.55:710][321]Cmd: POLY SELECT MEMORY RECALL
+[2024.04.22-01.26.57:313][476]Cmd: POLY SELECT MEMORY RECALL
+[2024.04.22-01.27.14:715][174]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.27.14:777][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-01.27.14:777][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-01.27.15:068][174]LogViewport: Scene viewport resized to 1231x665, mode Windowed.
+[2024.04.22-01.27.26:229][861]LogSlate: Window 'Circletable3' being destroyed
+[2024.04.22-01.27.26:236][861]LogSlate: Window 'Circletable3' being destroyed
+[2024.04.22-01.27.26:269][861]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.27.26:269][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.27.32:935][499]Cmd: POLY SELECT ADJACENT WALLS
+[2024.04.22-01.27.33:966][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:966][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:967][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:967][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:967][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:968][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:968][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:969][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.33:970][590]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:527][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:527][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:528][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:528][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:528][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:529][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:529][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:530][638]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.34:550][639]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.38:831][ 42]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 0 (Found bundle for host: 0x52684970450 [serially])
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 1 (Re-using existing connection #35 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (34.232.223.239) port 443 (#35))
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.27.46:785][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.27.46:786][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.27.46:786][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 6 (Closing connection 35)
+[2024.04.22-01.27.46:786][824]LogHttp: Warning: 00000526E1A85000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.27.46:786][824]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.27.47:203][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:203][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:204][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:205][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:205][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:206][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:206][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:206][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.27.47:208][861]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:248][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:248][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:249][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:249][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:249][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:250][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:250][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:251][696]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.06:281][697]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:878][851]Cmd: DUPLICATE
+[2024.04.22-01.28.07:878][851]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.28.07:911][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:912][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:912][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:913][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:913][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:914][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:914][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:914][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.07:915][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.13:943][425]LogEditorViewport: Clicking Background
+[2024.04.22-01.28.16:985][756]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2024.04.22-01.28.18:534][905]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2024.04.22-01.28.21:796][213]Cmd: POLY SELECT ADJACENT WALLS
+[2024.04.22-01.28.25:131][531]LogEditorViewport: Clicking Background
+[2024.04.22-01.28.28:481][864]LogEditorViewport: Clicking Background
+[2024.04.22-01.28.29:642][980]Cmd: DUPLICATE
+[2024.04.22-01.28.29:642][980]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.28.29:679][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:680][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:680][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:681][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:681][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:681][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:682][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:682][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.29:682][980]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.32:161][219]Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[2024.04.22-01.28.35:095][493]LogEditorViewport: Clicking Background
+[2024.04.22-01.28.57:554][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:554][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:555][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:555][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:556][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:557][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:557][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:558][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.57:559][ 32]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:837][268]Cmd: DUPLICATE
+[2024.04.22-01.28.59:838][268]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.28.59:868][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:869][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:869][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:870][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:870][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:871][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:871][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.28.59:872][268]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.06:766][955]LogEditorViewport: Clicking Background
+[2024.04.22-01.29.07:595][ 42]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.07:596][ 42]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.07:596][ 42]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.07:596][ 42]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:033][294]Cmd: DUPLICATE
+[2024.04.22-01.29.10:033][294]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.29.10:061][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:061][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:062][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:062][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:062][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:063][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:063][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.10:065][294]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.15:415][822]LogEditorViewport: Clicking Background
+[2024.04.22-01.29.22:807][675]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.22:807][675]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.22:808][675]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.22:808][675]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.22:808][675]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:724][769]Cmd: DUPLICATE
+[2024.04.22-01.29.23:724][769]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.29.23:756][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:757][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:757][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:758][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:758][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:758][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:759][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.23:760][769]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.29.37:780][ 81]LogEditorViewport: Clicking Background
+[2024.04.22-01.30.27:782][882]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.30.27:846][882]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.22-01.30.27:846][882]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.22-01.30.28:130][882]LogViewport: Scene viewport resized to 1231x665, mode Windowed.
+[2024.04.22-01.30.30:639][ 47]LogWindows: Warning: OpenClipboard failed with error code 5
+[2024.04.22-01.30.34:540][287]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-01.30.34:594][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3dTavern/CircleTable/Circletable3" FILE="../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Content/3dTavern/CircleTable/Circletable3.uasset" SILENT=true
+[2024.04.22-01.30.34:601][287]LogSavePackage: Moving output files for package: /Game/3dTavern/CircleTable/Circletable3
+[2024.04.22-01.30.34:601][287]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Circletable33BF5F1D543458E99780863B7A50FC7FA.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Content/3dTavern/CircleTable/Circletable3.uasset'
+[2024.04.22-01.30.34:621][287]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 277 ms)
+[2024.04.22-01.30.34:626][287]AssetCheck: New page: Asset Save: Circletable3
+[2024.04.22-01.30.34:626][287]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/3dTavern/CircleTable/Circletable3.Circletable3
+[2024.04.22-01.30.35:686][354]LogSlate: Window 'Circletable3' being destroyed
+[2024.04.22-01.30.35:694][354]LogSlate: Window 'Circletable3' being destroyed
+[2024.04.22-01.30.35:727][354]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.04.22-01.30.35:727][354]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.22-01.34.36:131][574]LogEditorViewport: Clicking Background
+[2024.04.22-01.34.37:111][686]LogEditorViewport: Clicking Background
+[2024.04.22-01.34.41:674][153]Cmd: DUPLICATE
+[2024.04.22-01.34.41:674][153]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.34.41:710][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:711][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:711][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:711][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:712][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:712][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:713][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.41:714][153]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:488][669]Cmd: DUPLICATE
+[2024.04.22-01.34.57:488][669]Cmd: ACTOR DUPLICATE
+[2024.04.22-01.34.57:520][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:521][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:521][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:522][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:522][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:523][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:523][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.34.57:525][669]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.02:449][150]LogEditorViewport: Clicking Background
+[2024.04.22-01.35.19:929][897]LogEditorViewport: Clicking Background
+[2024.04.22-01.35.24:580][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:581][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:581][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:581][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:582][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:582][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:582][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.24:583][396]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:255][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:256][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:256][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:256][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:257][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:257][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:257][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.25:258][455]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.28:750][790]LogEditorViewport: Clicking Background
+[2024.04.22-01.35.30:427][967]Cmd: DELETE
+[2024.04.22-01.35.30:427][967]Cmd: ACTOR DELETE
+[2024.04.22-01.35.30:429][967]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.04.22-01.35.30:438][967]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.04.22-01.35.30:445][967]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2024.04.22-01.35.30:456][967]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 0 (Found bundle for host: 0x52684970c60 [serially])
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 1 (Re-using existing connection #37 with host datarouter.ol.epicgames.com)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.243.176.182) port 443 (#37))
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 3 (We are completely uploaded and fine)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 5 (necessary data rewind wasn't possible)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 6 (Closing connection 37)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: 00000526DECF8200: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.22-01.35.47:044][631]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B54BD2A9E-4142-2F11-B69E-718DECBA58F1%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.2.1-26001984%2B%2B%2BUE5%2BRelease-5.2&UserID=f1d7bb0a4b2c08439cb751a81113c99e%7C992098e076a7449f8053cfa6f756602b%7C8b85d194-bd3e-4ada-af0a-0657abb1e7cf&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.22-01.35.52:067][130]LogEditorViewport: Clicking Background
+[2024.04.22-01.36.19:928][111]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.04.22-01.36.19:939][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/MainLevel_Auto3
+[2024.04.22-01.36.19:940][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/MainLevel_Auto39FBA4F1F4DD46B7F227198A6F3553AAD.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/MainLevel_Auto3.umap'
+[2024.04.22-01.36.19:947][111]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/3dTavern/MainLevel' took 0.027
+[2024.04.22-01.36.19:947][111]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.027
+[2024.04.22-01.36.19:948][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Stylised_wood] ([1] browsable assets)...
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Total job queries 475, among them cache hits 223 (46.95%)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Tracking 252 distinct input hashes that result in 69 distinct outputs (27.38%)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: RAM used: 5,83 MiB of 819,20 MiB budget. Usage: 0.71%
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Shaders Compiled: 214
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Jobs assigned 214, completed 214 (100.00%)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Average time worker was idle: 370.98 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Time job spent in pending queue: average 0.89 s, longest 31.90 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Job execution time: average 2.06 s, max 31.88 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Job life time (pending + execution): average 2.95 s, max 32.63
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 64.56 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Jobs were issued in 214 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Average processing rate: 3.31 jobs/sec
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Total thread time: 126,719 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Total thread preprocess time: 10,002 s
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Percentage time preprocessing: 7.89%
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Effective parallelization: 1.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled   12 times, average 0.72 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   19 times, average 0.72 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled   12 times, average 0.71 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled   12 times, average 0.69 sec, max 1.01 sec, min 0.57 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled   12 times, average 0.69 sec, max 1.01 sec, min 0.58 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 10.72% of total time (compiled   19 times, average 0.72 sec, max 1.03 sec, min 0.53 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.75% of total time (compiled   19 times, average 0.65 sec, max 0.86 sec, min 0.46 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.82% of total time (compiled   12 times, average 0.72 sec, max 1.04 sec, min 0.59 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:                                                 FLumenCardVS - 6.78% of total time (compiled   16 times, average 0.54 sec, max 0.80 sec, min 0.36 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 6.73% of total time (compiled   12 times, average 0.71 sec, max 1.03 sec, min 0.62 sec)
+[2024.04.22-01.36.19:967][111]LogShaderCompilers: Display: ================================================
+[2024.04.22-01.36.19:992][111]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3dTavern/CircleTable/Stylised_wood.Stylised_wood]
+[2024.04.22-01.36.19:992][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Stylised_wood]
+[2024.04.22-01.36.19:994][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Stylised_wood_Auto3
+[2024.04.22-01.36.19:994][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Stylised_wood_Auto3DDB8BF404CF0B94C563287A675C7DA0A.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Stylised_wood_Auto3.uasset'
+[2024.04.22-01.36.19:994][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_002] ([1] browsable assets)...
+[2024.04.22-01.36.20:022][111]OBJ SavePackage:     Rendered thumbnail for [Material /Game/3dTavern/CircleTable/Wood_002.Wood_002]
+[2024.04.22-01.36.20:022][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_002]
+[2024.04.22-01.36.20:024][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto3
+[2024.04.22-01.36.20:024][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_002_Auto3CD18130040EC4946FB95698A539BCBB9.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto3.uasset'
+[2024.04.22-01.36.20:025][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_BaseColor] ([1] browsable assets)...
+[2024.04.22-01.36.20:028][111]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_BaseColor.Wood_1_BaseColor]
+[2024.04.22-01.36.20:028][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_BaseColor]
+[2024.04.22-01.36.20:029][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_BaseColor_Auto3
+[2024.04.22-01.36.20:030][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_BaseColor_Auto36282A3D7457925F83F87148783F33063.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_BaseColor_Auto3.uasset'
+[2024.04.22-01.36.20:031][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Emissive] ([1] browsable assets)...
+[2024.04.22-01.36.20:032][111]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Emissive.Wood_1_Emissive]
+[2024.04.22-01.36.20:033][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Emissive]
+[2024.04.22-01.36.20:034][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Emissive_Auto3
+[2024.04.22-01.36.20:034][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Emissive_Auto347D88A82419289D9F79A35B830C1095B.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Emissive_Auto3.uasset'
+[2024.04.22-01.36.20:035][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Roughness] ([1] browsable assets)...
+[2024.04.22-01.36.20:037][111]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Roughness.Wood_1_Roughness]
+[2024.04.22-01.36.20:037][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Roughness]
+[2024.04.22-01.36.20:047][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Roughness_Auto3
+[2024.04.22-01.36.20:047][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Roughness_Auto34034D2934CEA7971335EA39B6A171050.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Roughness_Auto3.uasset'
+[2024.04.22-01.36.20:048][111]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/3dTavern/CircleTable/Wood_1_Normal] ([1] browsable assets)...
+[2024.04.22-01.36.20:050][111]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/3dTavern/CircleTable/Wood_1_Normal.Wood_1_Normal]
+[2024.04.22-01.36.20:050][111]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_1_Normal]
+[2024.04.22-01.36.20:053][111]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_1_Normal_Auto3
+[2024.04.22-01.36.20:053][111]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Wood_1_Normal_Auto3C2DABE7D4AA8EF27CE0C9DAEE5017A3B.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_1_Normal_Auto3.uasset'
+[2024.04.22-01.36.20:054][111]LogFileHelpers: Auto-saving content packages took 0.106
+[2024.04.22-01.37.26:208][780]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.26:208][780]LogEditorTransaction: Undo Clicking Background
+[2024.04.22-01.37.26:277][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:278][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:278][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:279][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:279][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:279][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:280][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:280][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:284][780]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:401][783]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.26:401][783]LogEditorTransaction: Undo Move Elements
+[2024.04.22-01.37.26:464][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:465][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:465][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:466][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:466][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:466][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:467][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:467][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:468][783]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:635][787]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.26:635][787]LogEditorTransaction: Undo Rotate Elements
+[2024.04.22-01.37.26:693][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:694][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:694][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:695][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:696][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:696][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:697][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:697][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:699][787]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:847][798]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.26:847][798]LogEditorTransaction: Undo Move Elements
+[2024.04.22-01.37.26:886][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:887][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:887][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:888][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:888][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:888][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:889][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:889][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.26:890][798]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:056][813]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.27:056][813]LogEditorTransaction: Undo Move Elements
+[2024.04.22-01.37.27:094][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:094][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:094][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:095][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:095][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:095][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:096][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:096][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:097][813]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:280][830]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.27:280][830]LogEditorTransaction: Undo Move Elements
+[2024.04.22-01.37.27:306][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:307][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:307][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:307][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:308][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:308][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:309][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:309][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:310][830]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:559][851]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.27:559][851]LogEditorTransaction: Undo Rotate Elements
+[2024.04.22-01.37.27:588][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:588][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:589][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:589][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:590][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:590][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:590][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:591][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:592][851]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:830][872]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.27:831][872]LogEditorTransaction: Undo Move Elements
+[2024.04.22-01.37.27:853][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:854][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:854][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:855][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:855][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:856][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:856][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:857][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.27:858][872]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:091][892]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.28:091][892]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.22-01.37.28:101][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:102][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:103][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:103][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:103][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:104][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:104][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:105][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:107][892]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:371][916]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.28:371][916]LogEditorTransaction: Undo Delete Elements
+[2024.04.22-01.37.28:440][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:440][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:441][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:441][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:441][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:442][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:442][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:442][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:443][916]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:761][942]Cmd: TRANSACTION UNDO
+[2024.04.22-01.37.28:761][942]LogEditorTransaction: Undo Clicking on Elements
+[2024.04.22-01.37.28:771][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:771][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:772][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:772][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:772][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:773][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:773][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:773][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.28:775][942]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.04.22-01.37.29:254][986]LogEditorViewport: Clicking Background
+[2024.04.22-01.37.52:728][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.22-01.37.52:779][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/3dTavern/MainLevel" FILE="../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Content/3dTavern/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.22-01.37.52:785][601]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.04.22-01.37.52:796][601]LogSavePackage: Moving output files for package: /Game/3dTavern/MainLevel
+[2024.04.22-01.37.52:797][601]LogSavePackage: Moving '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Saved/MainLevel2D543B624AC65B8F71E6EB9CDE53EA51.tmp' to '../../../../3dTavernGithub/3dTavern/FinalProjectGraphic/Content/3dTavern/MainLevel.umap'
+[2024.04.22-01.37.52:804][601]LogFileHelpers: Saving map 'MainLevel' took 0.026
+[2024.04.22-01.37.52:812][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 361 ms)
+[2024.04.22-01.37.52:817][601]AssetCheck: New page: Asset Save: MainLevel
+[2024.04.22-01.37.52:817][601]LogContentValidation: Display: Validating /Script/Engine.World /Game/3dTavern/MainLevel.MainLevel

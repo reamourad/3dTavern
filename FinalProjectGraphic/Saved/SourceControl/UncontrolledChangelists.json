@@ -5,6 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Content/3dTavern/TavernStructure/Floor/StoneFloor_BaseColor.uasset",
+				"C:/Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Content/3dTavern/TavernStructure/Floor/M_Floor.uasset",
+				"C:/Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Content/3dTavern/MainLevel.umap",
 				"D:/Unreal/LaSalle/3dTavern/FinalProjectGraphic/Content/Assets/CustomCharacter/BluePrints/BartenderCharacter.uasset",
 				"D:/Unreal/LaSalle/3dTavern/FinalProjectGraphic/Content/3dTavern/TavernStructure/TavernStructureWithTexture.uasset",
 				"D:/Unreal/LaSalle/3dTavern/FinalProjectGraphic/Content/3dTavern/MainLevel.umap",

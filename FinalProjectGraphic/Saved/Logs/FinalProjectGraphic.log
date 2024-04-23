@@ -2808,3 +2808,266 @@ Minimum required: 527.27
 [2024.04.23-00.18.06:944][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 6.99 sec)
 [2024.04.23-00.18.06:946][ 11]AssetCheck: New page: Asset Save: MainLevel
 [2024.04.23-00.18.06:946][ 11]LogContentValidation: Display: Validating /Script/Engine.World /Game/3dTavern/MainLevel.MainLevel
+[2024.04.23-00.21.16:410][ 20]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.23-00.21.16:419][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.23-00.21.16:419][ 20]PIE: New page: PIE session: MainLevel (22 avr. 2024 16 h 21 min 16 s)
+[2024.04.23-00.21.16:445][ 20]LogPlayLevel: Creating play world package: /Game/3dTavern/UEDPIE_0_MainLevel
+[2024.04.23-00.21.16:464][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019499s)
+[2024.04.23-00.21.16:464][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/3dTavern/MainLevel.MainLevel to /Game/3dTavern/UEDPIE_0_MainLevel.MainLevel (0.019547s)
+[2024.04.23-00.21.16:470][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.04.23-00.21.16:471][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-00.21.16:471][ 20]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-00.21.16:471][ 20]LogAIModule: Creating AISystem for world MainLevel
+[2024.04.23-00.21.16:472][ 20]LogPlayLevel: PIE: World Init took: (0.001152s)
+[2024.04.23-00.21.16:472][ 20]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.23-00.21.16:472][ 20]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.23-00.21.16:472][ 20]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.23-00.21.16:472][ 20]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.23-00.21.16:473][ 20]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.23-00.21.16:473][ 20]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.23-00.21.16:475][ 20]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.23-00.21.16:513][ 20]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.23-00.21.16:514][ 20]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.23-00.21.16:514][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.23-00.21.16:514][ 20]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.23-00.21.16:514][ 20]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.23-00.21.16:514][ 20]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.04.23-00.21.16:516][ 20]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.23-00.21.16:516][ 20]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.23-00.21.16:516][ 20]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.23-00.21.16:516][ 20]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainLevel'.
+[2024.04.23-00.21.16:516][ 20]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.23-00.21.16:520][ 20]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.23-00.21.16:522][ 20]LogWorld: Bringing World /Game/3dTavern/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2024.04.22-20.21.16
+[2024.04.23-00.21.16:522][ 20]LogWorld: Bringing up level for play took: 0.002027
+[2024.04.23-00.21.16:524][ 20]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.04.23-00.21.16:528][ 20]PIE: Server logged in
+[2024.04.23-00.21.16:529][ 20]PIE: Play in editor total start time 0,111 seconds.
+[2024.04.23-00.22.26:516][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-00.22.26:516][732]LogWorld: BeginTearingDown for /Game/3dTavern/UEDPIE_0_MainLevel
+[2024.04.23-00.22.26:516][732]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.04.23-00.22.26:517][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-00.22.26:522][732]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.23-00.22.26:525][732]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.23-00.22.26:530][732]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.23-00.22.26:531][732]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.23-00.22.26:531][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.23-00.22.26:533][732]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.23-00.22.26:541][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.04.23-00.22.26:604][733]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.04.23-00.24.58:514][527]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/3dTavern/HighChair/HighChair2.HighChair2
+[2024.04.23-00.24.58:559][527]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-00.24.58:559][527]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-00.24.59:161][527]LogViewport: Scene viewport resized to 737x402, mode Windowed.
+[2024.04.23-00.26.07:411][264]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/3dTavern/HighChair/Garden_Trellis.Garden_Trellis
+[2024.04.23-00.26.07:417][264]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.23-00.26.07:417][264]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.23-00.26.07:567][264]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.26.07:567][264]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.26.07:567][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.26.07:567][264]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.26.07:610][264]LogViewport: Scene viewport resized to 235x198, mode Windowed.
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: ================================================
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Total job queries 5 545, among them cache hits 1 414 (25.50%)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Tracking 4 066 distinct input hashes that result in 2 745 distinct outputs (67.51%)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: RAM used: 75,64 MiB of 819,20 MiB budget. Usage: 9.23%
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Shaders Compiled: 4 066
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Jobs assigned 4 070, completed 4 066 (99.90%)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Average time worker was idle: 21.49 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Time job spent in pending queue: average 92.59 s, longest 221.72 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Job execution time: average 4.98 s, max 21.13 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Job life time (pending + execution): average 97.66 s, max 228.69
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Shader code size: average 37,309 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 303.06 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Jobs were issued in 890 batches (only local compilation was used), average 4.57 jobs/batch
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Average processing rate: 13.42 jobs/sec
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Total thread time: 2 317,125 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Total thread preprocess time: 169,251 s
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Percentage time preprocessing: 7.30%
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Effective parallelization: 7.65 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 9.36 sec, max 15.47 sec, min 2.27 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.64 sec, max 6.49 sec, min 4.47 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.37 sec, max 4.52 sec, min 1.02 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.98 sec, max 3.93 sec, min 1.44 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 1.95 sec, max 4.81 sec, min 0.19 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.45% of total time (compiled  134 times, average 1.98 sec, max 3.93 sec, min 1.44 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.18% of total time (compiled   96 times, average 1.25 sec, max 2.20 sec, min 0.77 sec)
+[2024.04.23-00.26.07:765][269]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.24% of total time (compiled   96 times, average 1.02 sec, max 1.76 sec, min 0.24 sec)
+[2024.04.23-00.26.07:766][269]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.06% of total time (compiled  128 times, average 0.73 sec, max 1.71 sec, min 0.24 sec)
+[2024.04.23-00.26.07:766][269]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.86% of total time (compiled  128 times, average 0.70 sec, max 1.26 sec, min 0.48 sec)
+[2024.04.23-00.26.07:766][269]LogShaderCompilers: Display: ================================================
+[2024.04.23-00.26.08:473][292]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.26.08:473][292]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.26.08:473][292]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.26.08:473][292]MaterialEditorStats: Shader Count: 1
+[2024.04.23-00.26.08:774][302]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.26.08:774][302]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.26.08:774][302]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.26.08:774][302]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.26.08:774][302]MaterialEditorStats: Shader Count: 3
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: Base pass shader: 204 instructions
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.26.08:880][307]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.29.17:019][504]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.04.23-00.29.17:020][504]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/3dTavern/MainLevel' took 0.022
+[2024.04.23-00.29.17:021][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/3dTavern/CircleTable/Wood_002] ([1] browsable assets)...
+[2024.04.23-00.29.17:021][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/CircleTable/Wood_002]
+[2024.04.23-00.29.17:024][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto3
+[2024.04.23-00.29.17:025][504]LogSavePackage: Moving '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Saved/Wood_002_Auto3B5841F1C47BF146A0EBB4ABBB05719EC.tmp' to '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/CircleTable/Wood_002_Auto3.uasset'
+[2024.04.23-00.29.17:026][504]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/3dTavern/LongTable/Wood_002] ([1] browsable assets)...
+[2024.04.23-00.29.17:026][504]OBJ SavePackage: Finished generating thumbnails for package [/Game/3dTavern/LongTable/Wood_002]
+[2024.04.23-00.29.17:028][504]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/3dTavern/LongTable/Wood_002_Auto3
+[2024.04.23-00.29.17:028][504]LogSavePackage: Moving '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Saved/Wood_002_Auto3E18E025C468D58B6F62D4EBDA21D69D4.tmp' to '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Saved/Autosaves/Game/3dTavern/LongTable/Wood_002_Auto3.uasset'
+[2024.04.23-00.29.17:030][504]LogFileHelpers: Auto-saving content packages took 0.010
+[2024.04.23-00.30.27:038][227]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.30.27:038][227]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.27:038][227]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.27:038][227]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: ================================================
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Total job queries 5 559, among them cache hits 1 428 (25.69%)
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Tracking 4 074 distinct input hashes that result in 2 747 distinct outputs (67.43%)
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: RAM used: 75,80 MiB of 819,20 MiB budget. Usage: 9.25%
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Shaders Compiled: 4 074
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Jobs assigned 4 074, completed 4 074 (100%)
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Average time worker was idle: 24.85 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Time job spent in pending queue: average 92.50 s, longest 221.72 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Job execution time: average 4.98 s, max 21.13 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Job life time (pending + execution): average 97.47 s, max 228.69
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Shader code size: average 37,303 KiB, min 2,086 KiB, max 162,84 KiB
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 304.28 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Jobs were issued in 894 batches (only local compilation was used), average 4.56 jobs/batch
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Average processing rate: 13.39 jobs/sec
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Total thread time: 2 321,907 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Total thread preprocess time: 169,719 s
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Percentage time preprocessing: 7.31%
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Effective parallelization: 7.63 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display:                                          FClusteredShadingPS (compiled    4 times, average 9.36 sec, max 15.47 sec, min 2.27 sec)
+[2024.04.23-00.30.27:083][228]LogShaderCompilers: Display:                                   FSSDTemporalAccumulationCS (compiled   10 times, average 5.64 sec, max 6.49 sec, min 4.47 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                    FSSDSpatialAccumulationCS (compiled   33 times, average 2.37 sec, max 4.52 sec, min 1.02 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                             FDeferredLightPS (compiled  134 times, average 1.98 sec, max 3.93 sec, min 1.44 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                  FDiffuseIndirectCompositePS (compiled   12 times, average 1.95 sec, max 4.81 sec, min 0.19 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                             FDeferredLightPS - 11.43% of total time (compiled  134 times, average 1.98 sec, max 3.93 sec, min 1.44 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                FVirtualShadowMapProjectionCS - 5.17% of total time (compiled   96 times, average 1.25 sec, max 2.20 sec, min 0.77 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                  FScreenProbeTraceMeshSDFsCS - 4.23% of total time (compiled   96 times, average 1.02 sec, max 1.76 sec, min 0.24 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                      FRenderSingleScatteringWithPreshadingCS - 4.05% of total time (compiled  128 times, average 0.73 sec, max 1.71 sec, min 0.24 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display:                                      FScreenProbeIntegrateCS - 3.86% of total time (compiled  128 times, average 0.70 sec, max 1.26 sec, min 0.48 sec)
+[2024.04.23-00.30.27:084][228]LogShaderCompilers: Display: ================================================
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: Base pass shader: 204 instructions
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.27:104][229]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.30.35:214][643]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.30.35:214][643]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.35:214][643]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.35:214][643]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: Base pass shader: 204 instructions
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.35:244][645]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.30.39:285][853]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.30.39:285][853]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.39:285][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.39:285][853]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: Base pass shader: 204 instructions
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.39:316][855]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.30.47:133][262]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.30.47:133][262]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.47:133][262]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.47:133][262]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.30.47:746][287]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.30.47:746][287]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.47:746][287]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.47:746][287]MaterialEditorStats: Shader Count: 1
+[2024.04.23-00.30.47:960][296]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.47:960][296]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.30.47:960][296]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.47:960][296]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.47:961][296]MaterialEditorStats: Shader Count: 3
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.48:059][301]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.30.49:907][397]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.30.49:907][397]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.49:907][397]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.49:907][397]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.30.50:017][402]LogMaterialEditor: Applying material Garden_Trellis
+[2024.04.23-00.30.50:149][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.23-00.30.50:866][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.04.23-00.30.50:879][402]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.04.23-00.30.50:880][402]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.30.50:880][402]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.30.50:880][402]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.30.50:880][402]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.30.50:880][402]MaterialEditorStats: Shader Count: 6
+[2024.04.23-00.31.10:967][713]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.31.10:967][713]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.10:967][713]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.10:967][713]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.31.11:634][741]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.31.11:634][741]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.11:634][741]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.11:634][741]MaterialEditorStats: Shader Count: 1
+[2024.04.23-00.31.11:836][750]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.31.11:836][750]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.31.11:836][750]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.11:836][750]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.11:836][750]MaterialEditorStats: Shader Count: 3
+[2024.04.23-00.31.11:938][755]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.04.23-00.31.11:939][755]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.31.11:939][755]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.31.11:939][755]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.11:939][755]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.11:939][755]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.31.12:761][795]MaterialEditorStats: Texture samplers: 0/16
+[2024.04.23-00.31.12:761][795]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.12:761][795]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.12:761][795]MaterialEditorStats: Shader Count: 0
+[2024.04.23-00.31.13:133][811]MaterialEditorStats: Texture samplers: 2/16
+[2024.04.23-00.31.13:134][811]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.13:134][811]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.13:134][811]MaterialEditorStats: Shader Count: 1
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: Base pass shader: 205 instructions
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: Texture samplers: 4/16
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.04.23-00.31.13:326][819]MaterialEditorStats: Shader Count: 4
+[2024.04.23-00.31.13:500][825]LogMaterialEditor: Applying material Garden_Trellis
+[2024.04.23-00.31.13:583][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.04.23-00.31.14:154][825]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.04.23-00.31.21:281][190]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.23-00.31.21:366][190]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.04.23-00.31.21:377][190]LogSavePackage: Moving output files for package: /Game/3dTavern/MainLevel
+[2024.04.23-00.31.21:377][190]LogSavePackage: Moving '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Saved/MainLevel9CF9352444BF2F1B123B34974F1CF2B1.tmp' to '../../../../../../Users/Reamo/Documents/GitHub/3dTavern/FinalProjectGraphic/Content/3dTavern/MainLevel.umap'
+[2024.04.23-00.31.21:383][190]LogFileHelpers: Saving map 'MainLevel' took 0.048
+[2024.04.23-00.31.21:391][190]LogFileHelpers: InternalPromptForCheckoutAndSave took 109 ms (total: 7.10 sec)
+[2024.04.23-00.31.21:394][190]AssetCheck: New page: Asset Save: MainLevel
+[2024.04.23-00.31.21:394][190]LogContentValidation: Display: Validating /Script/Engine.World /Game/3dTavern/MainLevel.MainLevel
